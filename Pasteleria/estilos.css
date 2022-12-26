@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    width: 1080 px;
+    height: 300px;
+    background-color: rgb(253, 253, 242);
+}
+.logo h1{
+    color: #FD8A8A;
+}
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    display: flex;
+    align-items: flex-start;
+    width: 1080 px;
+    height: 300px;
+    background-color:#f9e79f ;
+}
+.menu-one{
+    flex: 1 ;
+    text-align: center;
+}
+.menu-one h1{
+    color:   #c39bd3;
+    font-size: 100px;
+    padding-top: 90px;
+}
+
+.menu-two{
+    flex: 1 ;
+}
+
+.menu-two h1{
+    color:  #7f8c8d ;
+}
+.menu-three{
+    flex: 1 ;
+}
+
+.menu-three h1{
+    color:  #7f8c8d ;
+}
+
+.menu-three img{
+    float: right;
+    padding-top: 20px;
+    margin-right: 80px;
+}
+
+.combinaciones{
+    display: flex;
+    align-items: flex-start;
+    width: 1080 px;
+    height: 300px;
+    background-color: rgb(253, 253, 242);
+}
+
+.combinaciones-one{
+    flex: 1 ;
+    text-align: center;
+}
+.combinaciones-one h1{
+    color:   #c39bd3;
+    font-size: 50px;
+    padding-top: 90px;
+}
+.combinaciones-two{
+    flex: 1;
+}
+
+.combinaciones-two h1{
+    color: #7f8c8d;
+}
+
+.combinaciones-two form{
+    text-align: center;
+}
+.combinaciones-three{
+    flex: 1;
+}
