@@ -1,3 +1,4 @@
+/* estilos para toda la pagina*/
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/* estilos para la seccion logo*/
 .logo{
     width: 1080 px;
     height: 300px;
@@ -18,7 +20,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
+/* estilos para la seccion Menu*/
 .menu{
     display: flex;
     align-items: flex-start;
@@ -57,6 +59,7 @@ body{
     margin-right: 80px;
 }
 
+/* estilos para la seccion combinaciones*/
 .combinaciones{
     display: flex;
     align-items: flex-start;
@@ -87,4 +90,84 @@ body{
 }
 .combinaciones-three{
     flex: 1;
+}
+
+.combinaciones-three h1{
+    color: #7f8c8d;
+}
+
+.combinaciones-three form{
+    text-align: center;
+}
+/* estilos para la seccion formulario*/
+.datos{
+    display: flex;
+    align-items: flex-start;
+    width: 1280px;
+    height: 300px;
+    background-color: #f9e79f;
+}
+
+.datos-p {
+    flex: 1;
+    text-align: center;
+}
+
+.datos-l{
+    flex: 1;
+    color:   #c39bd3;
+    font-size: 100px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+
+.datos-p h1{
+    color: #7f8c8d;
+}
+
+.datos-d{
+    flex: 1;
+    text-align: center;
+    color: #7f8c8d;
+}
+
+/* estilos para la pagina pastelero*/
+
+.body-p{
+    background-color: #2C3B5F;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1024;
+    height: 768;
+    color: #8db9ca;
+}
+
+.inicio-one{
+    flex: 1;
+    text-align: center;
+
+}
+
+.inicio-two{
+    flex: 1;
+    margin-right: 100px;
+    padding-top: 20px;
+}
+
+.inicio-two table{
+    width: 100%;
+}
+
+.inicio-two th,td{
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #7f8c8d;
+    border-spacing: 0;
+    border-collapse: collapse;
 }

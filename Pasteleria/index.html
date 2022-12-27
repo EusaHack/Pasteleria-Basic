@@ -59,7 +59,7 @@
         </div>
         <div class="combinaciones-two">
             <form action="">
-                <center><h1>Escoje tu pastel :</h1></center>
+                <h1>Escoje tu pastel :</h1>
                 <br>
                 <select>
                     <option value="cheescake">Cheescake</option>
@@ -86,7 +86,51 @@
             <label for="almendra">almendra</label><br>
         </div>
         <div class="combinaciones-three">
-            <h1>tree</h1>
+            <form action="">
+                <h1>Escoje tu adorno :</h1>
+                <br>
+                <select name="" id="">
+                    <option value="merengue">Merengue</option>
+                    <option value="crema">Crema Pastelera</option>
+                    <option value="fondant">Fondant</option>
+                </select>
+                <input type="text">
+                <br><br>
+                <h1>Extras :</h1>
+                <br>
+                <textarea name="extra" id="" cols="30" rows="10">Escribe lo que requieras de extra para tu pastel</textarea>
+            </form>
+        </div>
+    </section>
+    <section class="datos">
+        <section class="datos-l">
+            <h1>Envio</h1>
+        </section>
+        <div class="datos-p">
+            <h1>Datos de envio :</h1>
+            <br>
+            <form action="">
+                <label for="nombre">Nombre :</label>
+                <input type="text">
+                <br><br>
+                <label for="telefono">Telefono :</label>
+                <input type="text">
+                <br><br>
+                <label for="correo">Correo :</label>
+                <input type="text">
+                <br><br>
+                <label for="direccion">Direccion</label>
+                <input type="text">
+            </form>
+            <br>
+            <img width="160" src="./img/envio.png" alt="">
+        </div>
+        <div class="datos-d">
+            <h1>Descripcion del Pastel :</h1>
+            <br>
+            <textarea name="" id="" cols="30" rows="10">Ingresa una breve descripcion del pastel</textarea>
+            <br><br>
+            <button type="submit" onclick="location.href='./exitoso.html'">Realizar Pedido</button>
         </div>
     </section>
 </body>
